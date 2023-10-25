@@ -1,0 +1,32 @@
+body {
+  background: linear-gradient(120deg, #2980b9, #8e44ad);
+  color: #fff;
+  font-family: 'Arial', sans-serif;
+}
+
+canvas {
+  display: block;
+  margin: 0 auto;
+  background: #1a1a1a;
+  border: 5px solid #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 25px rgba(0,0,0,0.5);
+}
+
+
+#score {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 20px;
+  color: #fff;
+}
+
+#gameover {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  color: #f00;
+}
